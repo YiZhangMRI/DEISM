@@ -18,7 +18,7 @@ python main_train_e2e.py --mode train --Resure False --gpus 0,1 --batch_size 1
 ## Testing
 We provide trained DEISM parameters at ./models. An example of network testing can be started as follows.
 ```bash
-python main_test.py --gpus 0 --test_data Healthy_1_kz.mat --mask Mask_54_96_96_acc_5_New.mat --model DEISM_acc=5.pth --save_name Healthy_acc=5.mat
+python main_test_e2e.py --gpus 0 --test_data Healthy_1_kz.mat --mask Mask_54_96_96_acc_5_New.mat --model DEISM_acc=5.pth --save_name Healthy_acc=5.mat
 ```
 
 ## Acknowledgments
